@@ -52,3 +52,37 @@
 
 
 /* header section style end */
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------ */
+/* media query */
+/* ------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width:576px) {
+    .logo-company-name {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .nav ul li {
+        list-style: none;
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+
+
+}
