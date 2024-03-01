@@ -19,7 +19,24 @@
     border: none;
 }
 
+.section-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 50px;
+
+}
+
 /* header section style start */
+
 /* nav section style */
 .logo-company-name {
     display: flex;
@@ -60,6 +77,7 @@
     color: #FF5400;
 }
 
+
 /* banner section style */
 .banner {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/hero_banner.png);
@@ -88,6 +106,8 @@
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: -30px;
 }
 
 .destination-info {
@@ -110,8 +130,21 @@
 
 }
 
-
 /* header section style end */
+
+/* main section style start*/
+
+/* popular tour section */
+.popular-tours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+
+/* main section style end*/
+
 
 
 
@@ -190,6 +223,13 @@
 
     .primary-button {
         width: 80%;
+        margin-bottom: 10px;
+    }
+
+    /* popular tour section */
+    .popular-tours {
+        flex-direction: column;
+        margin: 24px;
     }
 
 }
