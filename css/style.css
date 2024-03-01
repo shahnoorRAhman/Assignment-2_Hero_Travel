@@ -142,6 +142,15 @@
     margin: 100px 0;
 }
 
+/* choose your destination section style */
+.destination-choice-content {
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+}
 
 /* main section style end*/
 
@@ -229,6 +238,16 @@
     /* popular tour section */
     .popular-tours {
         flex-direction: column;
+        margin: 24px;
+    }
+
+    /* choose your destination section media query */
+    .destination-choice-content {
+        text-align: center;
+    }
+
+    .row {
+        width: 100%;
         margin: 24px;
     }
 
