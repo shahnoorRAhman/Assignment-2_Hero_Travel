@@ -9,6 +9,16 @@
     color: #FF5400;
 }
 
+.primary-button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 35px;
+    border: none;
+}
+
 /* header section style start */
 /* nav section style */
 .logo-company-name {
@@ -50,6 +60,56 @@
     color: #FF5400;
 }
 
+/* banner section style */
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/hero_banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 16px;
+    margin-top: 50px;
+    border-radius: 16px;
+}
+
+.banner-content {
+    text-align: center;
+    width: 676px;
+    padding: 106px;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+
+}
+
+.banner-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.destination-info {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.desti-info-box {
+    color: 19, 19, 24, 0.50;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 84px 16px 16px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+
+}
+
 
 /* header section style end */
 
@@ -66,6 +126,8 @@
 /* ------------------------------------------------------------------------------------------ */
 
 @media screen and (max-width:576px) {
+
+    /* nav media query */
     .logo-company-name {
         display: flex;
         align-items: center;
@@ -84,5 +146,50 @@
         margin-top: 10px;
     }
 
+    /* banner media query */
+    .banner {
+        border-radius: 16px;
+        margin: 20px;
+
+    }
+
+    .destination-info {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4px;
+        gap: 15px;
+    }
+
+    .banner-title {
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 800;
+
+    }
+
+    .banner-description {
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .banner-content {
+        width: 304px;
+        padding: 30px;
+    }
+
+    .destination-info {
+
+        margin: 24px;
+    }
+
+    .desti-info-box {
+        padding: 15px;
+        width: 70%;
+    }
+
+    .primary-button {
+        width: 80%;
+    }
 
 }
