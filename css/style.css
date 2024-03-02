@@ -1,5 +1,6 @@
 /* shared styles */
-* {
+main,
+header {
     font-family: "Mulish", sans-serif;
     max-width: 1170px;
     margin: 0 auto;
@@ -230,6 +231,7 @@
     background-size: cover;
     width: 100%;
     height: 500px;
+    margin-bottom: 24px;
 }
 
 .deals-content-1 {
@@ -267,6 +269,7 @@
     background-size: cover;
     width: 100%;
     height: 500px;
+    margin-bottom: 24px;
 }
 
 .deals-content-1 h3,
@@ -285,6 +288,137 @@ h4 {
     margin: 10px 500px;
     width: 20%;
 }
+
+/* video content section */
+.video-content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.video {
+    width: 1000px;
+    height: 300px;
+    margin-left: 25px;
+}
+
+.video-content>ul {
+    margin-bottom: 20px;
+}
+
+/* newsletter style */
+.newsletter-container {
+    display: flex;
+    margin-top: 100px;
+}
+
+.newsletter {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter h4 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.newsletter p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 40px;
+
+}
+
+.newsletter-image {
+    margin-left: 24px;
+}
+
+.newsletter-form input {
+    padding: 16px 250px 16px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-bottom: 24px;
+}
+
+
+#submit {
+    width: 300px;
+    height: 52px;
+}
+
+/* footer style */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo h2 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.footer-text {
+    margin-top: 20px;
+}
+
+.footer-text p {
+    margin: 5px 0;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+hr {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.rights-reserved {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+
 
 /* main section style end*/
 
@@ -462,6 +596,96 @@ h4 {
         margin-left: 150px;
         margin-top: 20px;
         width: 50%;
+    }
+
+    /* video content section start */
+    .video-content-container {
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 24px;
+    }
+
+    .video {
+        width: 400px;
+        height: 225px;
+    }
+
+    /* newsletter section media query */
+    .newsletter-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .newsletter {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 24px;
+    }
+
+    .newsletter h4 {
+        font-size: 20px;
+        padding: 20px 20px 10px 20px;
+        text-align: center;
+    }
+
+    .newsletter p {
+        font-size: 14px;
+        padding: 0 20px 20px 20px;
+        text-align: center;
+    }
+
+    .newsletter-form {
+        width: 100%;
+        margin: 0;
+    }
+
+    .newsletter-form input {
+        padding: 12px 20px;
+        width: 400px;
+        margin: 0 auto 24px auto;
+    }
+
+    #submit {
+        width: 400px;
+        margin: 0 auto 24px auto;
+
+    }
+
+    /* footer media query */
+    .footer-content {
+        max-width: 90%;
+        padding: 0 15px;
+    }
+
+    .logo {
+        align-items: center;
+    }
+
+    .logo img {
+        width: 70px;
+    }
+
+    .logo h2 {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .footer-text p {
+        font-size: 12px;
+    }
+
+    .social-icons {
+        margin-top: 15px;
+    }
+
+    .social-icons a {
+        margin: 0 6px;
+    }
+
+    .rights-reserved {
+        margin-top: 15px;
+        font-size: 11px;
     }
 
 }
