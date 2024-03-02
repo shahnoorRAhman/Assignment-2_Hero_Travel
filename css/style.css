@@ -152,6 +152,55 @@
     height: auto;
 }
 
+/* why choose us style */
+.why-choose-us-content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* cards */
+.why-choose-us-card {
+    display: flex;
+    gap: 24px;
+}
+
+.card-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.card-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    margin-left: 298px;
+    width: 573px;
+    margin-top: 24px;
+}
+
+.card-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.card-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* main section style end*/
 
 
@@ -249,6 +298,30 @@
     .row {
         width: 100%;
         margin: 24px;
+    }
+
+    /* why choose us media query */
+    .why-choose-us-card {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .card-1 {
+        margin-left: 24px;
+        margin-right: 24px;
+        width: 335px;
+    }
+
+    .card-2 {
+        margin-left: 24px;
+        margin-right: 24px;
+        width: 335px;
+    }
+
+    .card-3 {
+        margin-left: 24px;
+        margin-right: 24px;
+        width: 335px;
     }
 
 }
